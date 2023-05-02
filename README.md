@@ -8,3 +8,10 @@
 # Dependencias
     * npm init -y
     * npm install --save express body-parser
+    * npm install --save nodemon
+    * npm install --save mysql2
+    * npm install --save sequelize sequelize-cli path
+# comandos sequelize
+    * npx sequelize-cli init
+    * npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
+    * npx sequelize-cli model:create --name Grupo --attributes nome:string
