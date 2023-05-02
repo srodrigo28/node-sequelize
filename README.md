@@ -15,3 +15,4 @@
     * npx sequelize-cli init
     * npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
     * npx sequelize-cli model:create --name Grupo --attributes nome:string
+    * npx sequelize-cli db:migrate
